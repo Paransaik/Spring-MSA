@@ -26,19 +26,10 @@ eureka:
 greeting:
   message: Welcome to the Simple E-commerce.
 
+logging:
+  level:
+    com.example.userservice: DEBUG
 
-#spring.jpa.defer-datasource-initialization=true
-#h2:
-#  console:
-#    enabled: true
-#    settings:
-#      web-allow-others: true
-#    path: /h2-console
-#  jpa:
-#    hibernate:
-#      ddl-auto: create-drop
-#    show-sql: true
-#    generate-ddl: true
-#  datasource:
-#    driver-class-name: org.h2.Driver
-#    url: jdbc:h2:mem:testdb
+token:
+  expiration_time: 86400000 # 하루 60 * 60 * 24 * 1000
+  secret: user_token
