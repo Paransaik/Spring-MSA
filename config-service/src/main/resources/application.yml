@@ -9,5 +9,5 @@ spring:
       server:
         git:
           uri: https://github.com/Paransaik/Spring-MSA
-          search-paths: git-local-repo/**
+          search-paths: /git-local-repo
           default-label: main
