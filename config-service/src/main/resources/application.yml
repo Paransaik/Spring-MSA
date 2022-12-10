@@ -4,10 +4,16 @@ server:
 spring:
   application:
     name: config-service
+  profiles:
+    active: native
   cloud:
     config:
       server:
+        native:
+          search-locations: file://${user.home}/IdeaProjects/Spring-MSA/git-local-repo
         git:
           uri: https://github.com/Paransaik/Spring-MSA
+#          username:
+#          password:
           search-paths: /git-local-repo
           default-label: main
