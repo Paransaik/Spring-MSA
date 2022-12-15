@@ -1,0 +1,6 @@
+encrypt:
+  key: abcd1234
+#  key-store:
+#    location: file:///${user.home}/Desktop/~
+#    password: test1234
+#    alias: apiEncryptionKey
