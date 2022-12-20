@@ -8,3 +8,8 @@ spring:
 token:
   expiration_time: 86400000 # 하루 60 * 60 * 24 * 1000
   secret: user_token_native_user_service
+
+order_service:
+  url: http://ORDER_SERVICE/order-service/%s/orders
+  exception:
+    orders_is_empty: User's orders is empty.

@@ -28,7 +28,7 @@ greeting:
 
 logging:
   level:
-    com.example.userservice: DEBUG
+    com.example.userservice.client: DEBUG
 
 #token:
 #  expiration_time: 86400000 # 하루 60 * 60 * 24 * 1000
